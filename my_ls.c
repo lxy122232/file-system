@@ -35,7 +35,7 @@ void my_ls()
                        (fcbptr->date) & 0x001f,
                        (fcbptr->time >> 11),
                        (fcbptr->time >> 5) & 0x003f,
-                       fcbptr->length);
+                       fcbptr->length);//test
             }
         }
     }
