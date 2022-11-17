@@ -139,7 +139,6 @@ int main(void)
             case 10: // exit
                 my_exitsys();   //见exit就退,后面空格跟啥都退
                 return 0;
-                //break;       不可达,我把他注释了
             case 11: // help
                 sp = strtok(NULL, " ");    //他这个help挺奇怪的,必须要help all才能打开全部帮助
                 if (sp != NULL)                       //然后help my_对应功能才行,

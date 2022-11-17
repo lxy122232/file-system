@@ -10,7 +10,7 @@ void my_format()
 	 */
     block0* boot = (block0*)myvhard;
     strcpy(boot->magic_number, "10101010");
-    strcpy(boot->information, "fat file system");   //这个fat是什么
+    strcpy(boot->information, "fat file system");
     boot->root = 5;
     boot->startblock = myvhard + BLOCKSIZE * 5;   //跳过前五个
 
@@ -29,7 +29,7 @@ void my_format()
     // 5th block is root
     fcb* root = (fcb*)(myvhard + BLOCKSIZE * 5);
     strcpy(root->filename, ".");
-    strcpy(root->exname, "di");
+    strcpy(root->exname, "di"); //拓展名
     root->attribute = 0; // 目录文件
 
     time_t rawTime = time(NULL);
@@ -40,7 +40,7 @@ void my_format()
     root->date = (time->tm_year - 100) * 512 + (time->tm_mon + 1) * 32 + (time->tm_mday);
     root->first = 5;
     root->free = 1;
-    root->length = 2 * sizeof(fcb);
+    root->length = 2 * sizeof(fcb);   //
 
     fcb* root2 = root + 1;
     memcpy(root2, root, sizeof(fcb));   //除了名字不同其他一样

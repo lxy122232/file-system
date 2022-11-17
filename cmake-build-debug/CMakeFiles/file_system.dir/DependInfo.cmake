@@ -28,6 +28,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/LunixFileSystem-master/file_system/my_rmdir.c" "CMakeFiles/file_system.dir/my_rmdir.c.obj" "gcc" "CMakeFiles/file_system.dir/my_rmdir.c.obj.d"
   "D:/LunixFileSystem-master/file_system/my_startsys.c" "CMakeFiles/file_system.dir/my_startsys.c.obj" "gcc" "CMakeFiles/file_system.dir/my_startsys.c.obj.d"
   "D:/LunixFileSystem-master/file_system/my_write.c" "CMakeFiles/file_system.dir/my_write.c.obj" "gcc" "CMakeFiles/file_system.dir/my_write.c.obj.d"
+  "D:/LunixFileSystem-master/file_system/testtt.c" "CMakeFiles/file_system.dir/testtt.c.obj" "gcc" "CMakeFiles/file_system.dir/testtt.c.obj.d"
   )
 
 # Targets to which this target links.

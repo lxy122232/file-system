@@ -608,6 +608,30 @@ my_write.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_system.dir\build.make CMakeFiles/file_system.dir/my_write.c.s
 .PHONY : my_write.c.s
 
+testtt.obj: testtt.c.obj
+.PHONY : testtt.obj
+
+# target to build an object file
+testtt.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_system.dir\build.make CMakeFiles/file_system.dir/testtt.c.obj
+.PHONY : testtt.c.obj
+
+testtt.i: testtt.c.i
+.PHONY : testtt.i
+
+# target to preprocess a source file
+testtt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_system.dir\build.make CMakeFiles/file_system.dir/testtt.c.i
+.PHONY : testtt.c.i
+
+testtt.s: testtt.c.s
+.PHONY : testtt.s
+
+# target to generate assembly for a file
+testtt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_system.dir\build.make CMakeFiles/file_system.dir/testtt.c.s
+.PHONY : testtt.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -677,6 +701,9 @@ help:
 	@echo ... my_write.obj
 	@echo ... my_write.i
 	@echo ... my_write.s
+	@echo ... testtt.obj
+	@echo ... testtt.i
+	@echo ... testtt.s
 .PHONY : help
 
 

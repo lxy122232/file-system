@@ -10,7 +10,7 @@ void my_startsys()
     myvhard = (unsigned char*)malloc(SIZE);   //虚拟磁盘空间大小
     FILE* file;
     if ((file = fopen(FILENAME, "r")) != NULL) {
-        fread(buffer, SIZE, 1, file);
+        fread(buffer, SIZE, 1, file);   //读取文件到buffer里面,第二个参数是每块的大小,第三个参数是读取的块数,如果读取成功,返回实际读取的块数.
         fclose(file);
         if (memcmp(buffer, "10101010", 8) == 0) {   //两个内存块字节相同
             memcpy(myvhard, buffer, SIZE);
