@@ -39,8 +39,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/file_system.dir/my_startsys.c.obj.d"
   "CMakeFiles/file_system.dir/my_write.c.obj"
   "CMakeFiles/file_system.dir/my_write.c.obj.d"
-  "CMakeFiles/file_system.dir/testtt.c.obj"
-  "CMakeFiles/file_system.dir/testtt.c.obj.d"
   "file_system.exe"
   "file_system.exe.manifest"
   "file_system.pdb"

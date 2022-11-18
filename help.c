@@ -1,6 +1,6 @@
 #include "head.h"
 
-void help(char* command)
+void help(char* command)  //
 {
     if (strcmp(command, "my_mkdir") == 0){
         printf("%s\n", "use 'my_mkdir + dir_name' to create a dictionary");

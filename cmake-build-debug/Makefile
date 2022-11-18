@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "D:\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\LunixFileSystem-master\file_system
+CMAKE_SOURCE_DIR = D:\file-system
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\LunixFileSystem-master\file_system\cmake-build-debug
+CMAKE_BINARY_DIR = D:\file-system\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = D:\LunixFileSystem-master\file_system\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\LunixFileSystem-master\file_system\cmake-build-debug\CMakeFiles D:\LunixFileSystem-master\file_system\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\file-system\cmake-build-debug\CMakeFiles D:\file-system\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\LunixFileSystem-master\file_system\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\file-system\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -608,30 +608,6 @@ my_write.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_system.dir\build.make CMakeFiles/file_system.dir/my_write.c.s
 .PHONY : my_write.c.s
 
-testtt.obj: testtt.c.obj
-.PHONY : testtt.obj
-
-# target to build an object file
-testtt.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_system.dir\build.make CMakeFiles/file_system.dir/testtt.c.obj
-.PHONY : testtt.c.obj
-
-testtt.i: testtt.c.i
-.PHONY : testtt.i
-
-# target to preprocess a source file
-testtt.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_system.dir\build.make CMakeFiles/file_system.dir/testtt.c.i
-.PHONY : testtt.c.i
-
-testtt.s: testtt.c.s
-.PHONY : testtt.s
-
-# target to generate assembly for a file
-testtt.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_system.dir\build.make CMakeFiles/file_system.dir/testtt.c.s
-.PHONY : testtt.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -701,9 +677,6 @@ help:
 	@echo ... my_write.obj
 	@echo ... my_write.i
 	@echo ... my_write.s
-	@echo ... testtt.obj
-	@echo ... testtt.i
-	@echo ... testtt.s
 .PHONY : help
 
 
