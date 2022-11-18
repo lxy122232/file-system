@@ -15,11 +15,11 @@ int do_write(int fd, char* text, int len, char wstyle)
         openfilelist[fd].length = 0;
     } else if (wstyle == 3) {
         // 追加写，如果是一般文件，则需要先删除末尾 \0，即将指针移到末位减一个字节处
-        openfilelist[fd].count = openfilelist[fd].length;
+        openfilelist[fd].count = openfilelist[fd].length;  //从末尾的\0开始写并且覆盖之
         if (openfilelist[fd].attribute == 1) {
             if (openfilelist[fd].length != 0) {
                 // 非空文件
-                openfilelist[fd].count = openfilelist[fd].length - 1;
+                openfilelist[fd].count = openfilelist[fd].length - 1;  //length算不算结尾\0的长度
             }
         }
     }
@@ -27,7 +27,7 @@ int do_write(int fd, char* text, int len, char wstyle)
     int off = openfilelist[fd].count;
 
     // 定位磁盘块和块内偏移量
-    while (off >= BLOCKSIZE) {   //比磁盘块大,就得开新块?
+    while (off >= BLOCKSIZE) {   //比磁盘块大,就得开新块
         block_num = fatptr->id;
         if (block_num == END) {  //
             printf("do_write: off error\n");
