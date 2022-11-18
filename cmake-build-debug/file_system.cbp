@@ -76,9 +76,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/file-system/123.txt">
-			<Option target="file_system"/>
-		</Unit>
 		<Unit filename="D:/file-system/do_read.c">
 			<Option target="file_system"/>
 		</Unit>

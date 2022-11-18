@@ -41,7 +41,7 @@ void my_format()
     root->first = 5;
     root->free = 1;
     root->length = 2 * sizeof(fcb);   //
-
+//时间的格式显示异常   2022//11/18 21:09显示的是2022/11/18 21:8 0或者2022/11/18 21:8
     fcb* root2 = root + 1;
     memcpy(root2, root, sizeof(fcb));   //除了名字不同其他一样
     strcpy(root2->filename, "..");
