@@ -1,8 +1,7 @@
 #include "head.h"
 
 //debug func
-void test()
-{
+void test() {
     int openfile_num = 0;
     int i;
     printf("debug area ############\n");
@@ -19,8 +18,7 @@ void test()
     printf("debug end  ############\n");
 }
 
-int main(void)
-{
+int main(void) {
 
     char dict[13][20] = {        //注意这个20表示的是这里面命令字符个数不超过20
 
@@ -28,7 +26,8 @@ int main(void)
             "rm", "open", "close", "write", "read",
             "exit", "help", "test"
     };
-    char command[30], *sp;
+    char command[30], *sp, *er, b='0';
+    er =&b;
     int cmd_idx, i;
     printf("**************** file system start ***************\n");
     my_startsys();
@@ -48,16 +47,13 @@ int main(void)
                 break;
             }
         }
-        switch (cmd_idx) {  //实现逻辑需要改,不能俩空格还能搞
-            case 0: // mkdir  //实现逻辑需要改,不能俩空格还能搞
-                sp = strtok(NULL, " ");   //提取后部分命令
-                if (sp != NULL)                     //如果不为空说明后部分命令为要新建的文件(夹)?
-                    my_mkdir(sp);           //建
+        switch (cmd_idx) {
+            case 0: // mkdir
+                sp = strtok(NULL, " ");
+                if (sp != NULL && strtok(NULL, " ") ==NULL)
+                    my_mkdir(sp);
                 else
-                    printf("mkdir error\n");  //为空说明没指定,创建错误
-                 sp = strtok(NULL, " ");   //后面还多了个参数格式错误
-                if (sp != NULL)
-                    printf("\nwarning:you only need to INPUT my_mkdir  dir_name\n");
+                    printf("warning:you only need to INPUT mkdir dir_name\n");
                 break;
             case 1: // rmdir   //实现逻辑需要改,不能俩空格还能搞
                 sp = strtok(NULL, " ");     //后部分命令不为空,则删除对应文件夹,为空报错.

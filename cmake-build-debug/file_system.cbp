@@ -8,138 +8,141 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/LunixFileSystem-master/file_system/cmake-build-debug"/>
+				<Option working_dir="D:/file-system/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/LunixFileSystem-master/file_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/LunixFileSystem-master/file_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/LunixFileSystem-master/file_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/LunixFileSystem-master/file_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/file-system/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/file-system/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/file-system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/file-system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="file_system">
-				<Option output="D:/LunixFileSystem-master/file_system/cmake-build-debug/file_system.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/LunixFileSystem-master/file_system/cmake-build-debug"/>
+				<Option output="D:/file-system/cmake-build-debug/file_system.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/file-system/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/LunixFileSystem-master/file_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 file_system"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/LunixFileSystem-master/file_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/LunixFileSystem-master/file_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/LunixFileSystem-master/file_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/file-system/cmake-build-debug/Makefile&quot;  VERBOSE=1 file_system"/>
+					<CompileFile command="D:/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/file-system/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/file-system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/file-system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="file_system/fast">
-				<Option output="D:/LunixFileSystem-master/file_system/cmake-build-debug/file_system.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/LunixFileSystem-master/file_system/cmake-build-debug"/>
+				<Option output="D:/file-system/cmake-build-debug/file_system.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/file-system/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/LunixFileSystem-master/file_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 file_system/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/LunixFileSystem-master/file_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/LunixFileSystem-master/file_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/LunixFileSystem-master/file_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/file-system/cmake-build-debug/Makefile&quot;  VERBOSE=1 file_system/fast"/>
+					<CompileFile command="D:/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/file-system/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/file-system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/file-system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/LunixFileSystem-master/file_system/cmake-build-debug"/>
+				<Option working_dir="D:/file-system/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/LunixFileSystem-master/file_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/LunixFileSystem-master/file_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/LunixFileSystem-master/file_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/LunixFileSystem-master/file_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/file-system/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/file-system/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/file-system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/file-system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/LunixFileSystem-master/file_system/cmake-build-debug"/>
+				<Option working_dir="D:/file-system/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/LunixFileSystem-master/file_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/LunixFileSystem-master/file_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/LunixFileSystem-master/file_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/LunixFileSystem-master/file_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/file-system/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/file-system/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/file-system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/file-system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/LunixFileSystem-master/file_system/do_read.c">
+		<Unit filename="D:/file-system/123.txt">
 			<Option target="file_system"/>
 		</Unit>
-		<Unit filename="D:/LunixFileSystem-master/file_system/do_write.c">
+		<Unit filename="D:/file-system/do_read.c">
 			<Option target="file_system"/>
 		</Unit>
-		<Unit filename="D:/LunixFileSystem-master/file_system/get_free_block.c">
+		<Unit filename="D:/file-system/do_write.c">
 			<Option target="file_system"/>
 		</Unit>
-		<Unit filename="D:/LunixFileSystem-master/file_system/get_free_openfilelist.c">
+		<Unit filename="D:/file-system/get_free_block.c">
 			<Option target="file_system"/>
 		</Unit>
-		<Unit filename="D:/LunixFileSystem-master/file_system/head.c">
+		<Unit filename="D:/file-system/get_free_openfilelist.c">
 			<Option target="file_system"/>
 		</Unit>
-		<Unit filename="D:/LunixFileSystem-master/file_system/head.h">
+		<Unit filename="D:/file-system/head.c">
 			<Option target="file_system"/>
 		</Unit>
-		<Unit filename="D:/LunixFileSystem-master/file_system/help.c">
+		<Unit filename="D:/file-system/head.h">
 			<Option target="file_system"/>
 		</Unit>
-		<Unit filename="D:/LunixFileSystem-master/file_system/main.c">
+		<Unit filename="D:/file-system/help.c">
 			<Option target="file_system"/>
 		</Unit>
-		<Unit filename="D:/LunixFileSystem-master/file_system/my_cd.c">
+		<Unit filename="D:/file-system/main.c">
 			<Option target="file_system"/>
 		</Unit>
-		<Unit filename="D:/LunixFileSystem-master/file_system/my_close.c">
+		<Unit filename="D:/file-system/my_cd.c">
 			<Option target="file_system"/>
 		</Unit>
-		<Unit filename="D:/LunixFileSystem-master/file_system/my_create.c">
+		<Unit filename="D:/file-system/my_close.c">
 			<Option target="file_system"/>
 		</Unit>
-		<Unit filename="D:/LunixFileSystem-master/file_system/my_exit.c">
+		<Unit filename="D:/file-system/my_create.c">
 			<Option target="file_system"/>
 		</Unit>
-		<Unit filename="D:/LunixFileSystem-master/file_system/my_format.c">
+		<Unit filename="D:/file-system/my_exit.c">
 			<Option target="file_system"/>
 		</Unit>
-		<Unit filename="D:/LunixFileSystem-master/file_system/my_ls.c">
+		<Unit filename="D:/file-system/my_format.c">
 			<Option target="file_system"/>
 		</Unit>
-		<Unit filename="D:/LunixFileSystem-master/file_system/my_mkdir.c">
+		<Unit filename="D:/file-system/my_ls.c">
 			<Option target="file_system"/>
 		</Unit>
-		<Unit filename="D:/LunixFileSystem-master/file_system/my_open.c">
+		<Unit filename="D:/file-system/my_mkdir.c">
 			<Option target="file_system"/>
 		</Unit>
-		<Unit filename="D:/LunixFileSystem-master/file_system/my_read.c">
+		<Unit filename="D:/file-system/my_open.c">
 			<Option target="file_system"/>
 		</Unit>
-		<Unit filename="D:/LunixFileSystem-master/file_system/my_rm.c">
+		<Unit filename="D:/file-system/my_read.c">
 			<Option target="file_system"/>
 		</Unit>
-		<Unit filename="D:/LunixFileSystem-master/file_system/my_rmdir.c">
+		<Unit filename="D:/file-system/my_rm.c">
 			<Option target="file_system"/>
 		</Unit>
-		<Unit filename="D:/LunixFileSystem-master/file_system/my_startsys.c">
+		<Unit filename="D:/file-system/my_rmdir.c">
 			<Option target="file_system"/>
 		</Unit>
-		<Unit filename="D:/LunixFileSystem-master/file_system/my_write.c">
+		<Unit filename="D:/file-system/my_startsys.c">
 			<Option target="file_system"/>
 		</Unit>
-		<Unit filename="D:/LunixFileSystem-master/file_system/CMakeLists.txt">
+		<Unit filename="D:/file-system/my_write.c">
+			<Option target="file_system"/>
+		</Unit>
+		<Unit filename="D:/file-system/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

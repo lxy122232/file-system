@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "D:\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\LunixFileSystem-master\file_system
+CMAKE_SOURCE_DIR = D:\file-system
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\LunixFileSystem-master\file_system\cmake-build-debug
+CMAKE_BINARY_DIR = D:\file-system\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/file_system.dir/depend.make
@@ -71,282 +71,282 @@ include CMakeFiles/file_system.dir/flags.make
 CMakeFiles/file_system.dir/main.c.obj: CMakeFiles/file_system.dir/flags.make
 CMakeFiles/file_system.dir/main.c.obj: ../main.c
 CMakeFiles/file_system.dir/main.c.obj: CMakeFiles/file_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\LunixFileSystem-master\file_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/file_system.dir/main.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/main.c.obj -MF CMakeFiles\file_system.dir\main.c.obj.d -o CMakeFiles\file_system.dir\main.c.obj -c D:\LunixFileSystem-master\file_system\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\file-system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/file_system.dir/main.c.obj"
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/main.c.obj -MF CMakeFiles\file_system.dir\main.c.obj.d -o CMakeFiles\file_system.dir\main.c.obj -c D:\file-system\main.c
 
 CMakeFiles/file_system.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_system.dir/main.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\LunixFileSystem-master\file_system\main.c > CMakeFiles\file_system.dir\main.c.i
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\file-system\main.c > CMakeFiles\file_system.dir\main.c.i
 
 CMakeFiles/file_system.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_system.dir/main.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\LunixFileSystem-master\file_system\main.c -o CMakeFiles\file_system.dir\main.c.s
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\file-system\main.c -o CMakeFiles\file_system.dir\main.c.s
 
 CMakeFiles/file_system.dir/head.c.obj: CMakeFiles/file_system.dir/flags.make
 CMakeFiles/file_system.dir/head.c.obj: ../head.c
 CMakeFiles/file_system.dir/head.c.obj: CMakeFiles/file_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\LunixFileSystem-master\file_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/file_system.dir/head.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/head.c.obj -MF CMakeFiles\file_system.dir\head.c.obj.d -o CMakeFiles\file_system.dir\head.c.obj -c D:\LunixFileSystem-master\file_system\head.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\file-system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/file_system.dir/head.c.obj"
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/head.c.obj -MF CMakeFiles\file_system.dir\head.c.obj.d -o CMakeFiles\file_system.dir\head.c.obj -c D:\file-system\head.c
 
 CMakeFiles/file_system.dir/head.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_system.dir/head.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\LunixFileSystem-master\file_system\head.c > CMakeFiles\file_system.dir\head.c.i
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\file-system\head.c > CMakeFiles\file_system.dir\head.c.i
 
 CMakeFiles/file_system.dir/head.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_system.dir/head.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\LunixFileSystem-master\file_system\head.c -o CMakeFiles\file_system.dir\head.c.s
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\file-system\head.c -o CMakeFiles\file_system.dir\head.c.s
 
 CMakeFiles/file_system.dir/my_startsys.c.obj: CMakeFiles/file_system.dir/flags.make
 CMakeFiles/file_system.dir/my_startsys.c.obj: ../my_startsys.c
 CMakeFiles/file_system.dir/my_startsys.c.obj: CMakeFiles/file_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\LunixFileSystem-master\file_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/file_system.dir/my_startsys.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/my_startsys.c.obj -MF CMakeFiles\file_system.dir\my_startsys.c.obj.d -o CMakeFiles\file_system.dir\my_startsys.c.obj -c D:\LunixFileSystem-master\file_system\my_startsys.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\file-system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/file_system.dir/my_startsys.c.obj"
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/my_startsys.c.obj -MF CMakeFiles\file_system.dir\my_startsys.c.obj.d -o CMakeFiles\file_system.dir\my_startsys.c.obj -c D:\file-system\my_startsys.c
 
 CMakeFiles/file_system.dir/my_startsys.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_system.dir/my_startsys.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\LunixFileSystem-master\file_system\my_startsys.c > CMakeFiles\file_system.dir\my_startsys.c.i
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\file-system\my_startsys.c > CMakeFiles\file_system.dir\my_startsys.c.i
 
 CMakeFiles/file_system.dir/my_startsys.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_system.dir/my_startsys.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\LunixFileSystem-master\file_system\my_startsys.c -o CMakeFiles\file_system.dir\my_startsys.c.s
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\file-system\my_startsys.c -o CMakeFiles\file_system.dir\my_startsys.c.s
 
 CMakeFiles/file_system.dir/my_exit.c.obj: CMakeFiles/file_system.dir/flags.make
 CMakeFiles/file_system.dir/my_exit.c.obj: ../my_exit.c
 CMakeFiles/file_system.dir/my_exit.c.obj: CMakeFiles/file_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\LunixFileSystem-master\file_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/file_system.dir/my_exit.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/my_exit.c.obj -MF CMakeFiles\file_system.dir\my_exit.c.obj.d -o CMakeFiles\file_system.dir\my_exit.c.obj -c D:\LunixFileSystem-master\file_system\my_exit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\file-system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/file_system.dir/my_exit.c.obj"
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/my_exit.c.obj -MF CMakeFiles\file_system.dir\my_exit.c.obj.d -o CMakeFiles\file_system.dir\my_exit.c.obj -c D:\file-system\my_exit.c
 
 CMakeFiles/file_system.dir/my_exit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_system.dir/my_exit.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\LunixFileSystem-master\file_system\my_exit.c > CMakeFiles\file_system.dir\my_exit.c.i
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\file-system\my_exit.c > CMakeFiles\file_system.dir\my_exit.c.i
 
 CMakeFiles/file_system.dir/my_exit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_system.dir/my_exit.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\LunixFileSystem-master\file_system\my_exit.c -o CMakeFiles\file_system.dir\my_exit.c.s
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\file-system\my_exit.c -o CMakeFiles\file_system.dir\my_exit.c.s
 
 CMakeFiles/file_system.dir/my_format.c.obj: CMakeFiles/file_system.dir/flags.make
 CMakeFiles/file_system.dir/my_format.c.obj: ../my_format.c
 CMakeFiles/file_system.dir/my_format.c.obj: CMakeFiles/file_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\LunixFileSystem-master\file_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/file_system.dir/my_format.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/my_format.c.obj -MF CMakeFiles\file_system.dir\my_format.c.obj.d -o CMakeFiles\file_system.dir\my_format.c.obj -c D:\LunixFileSystem-master\file_system\my_format.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\file-system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/file_system.dir/my_format.c.obj"
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/my_format.c.obj -MF CMakeFiles\file_system.dir\my_format.c.obj.d -o CMakeFiles\file_system.dir\my_format.c.obj -c D:\file-system\my_format.c
 
 CMakeFiles/file_system.dir/my_format.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_system.dir/my_format.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\LunixFileSystem-master\file_system\my_format.c > CMakeFiles\file_system.dir\my_format.c.i
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\file-system\my_format.c > CMakeFiles\file_system.dir\my_format.c.i
 
 CMakeFiles/file_system.dir/my_format.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_system.dir/my_format.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\LunixFileSystem-master\file_system\my_format.c -o CMakeFiles\file_system.dir\my_format.c.s
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\file-system\my_format.c -o CMakeFiles\file_system.dir\my_format.c.s
 
 CMakeFiles/file_system.dir/my_ls.c.obj: CMakeFiles/file_system.dir/flags.make
 CMakeFiles/file_system.dir/my_ls.c.obj: ../my_ls.c
 CMakeFiles/file_system.dir/my_ls.c.obj: CMakeFiles/file_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\LunixFileSystem-master\file_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/file_system.dir/my_ls.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/my_ls.c.obj -MF CMakeFiles\file_system.dir\my_ls.c.obj.d -o CMakeFiles\file_system.dir\my_ls.c.obj -c D:\LunixFileSystem-master\file_system\my_ls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\file-system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/file_system.dir/my_ls.c.obj"
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/my_ls.c.obj -MF CMakeFiles\file_system.dir\my_ls.c.obj.d -o CMakeFiles\file_system.dir\my_ls.c.obj -c D:\file-system\my_ls.c
 
 CMakeFiles/file_system.dir/my_ls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_system.dir/my_ls.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\LunixFileSystem-master\file_system\my_ls.c > CMakeFiles\file_system.dir\my_ls.c.i
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\file-system\my_ls.c > CMakeFiles\file_system.dir\my_ls.c.i
 
 CMakeFiles/file_system.dir/my_ls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_system.dir/my_ls.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\LunixFileSystem-master\file_system\my_ls.c -o CMakeFiles\file_system.dir\my_ls.c.s
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\file-system\my_ls.c -o CMakeFiles\file_system.dir\my_ls.c.s
 
 CMakeFiles/file_system.dir/my_mkdir.c.obj: CMakeFiles/file_system.dir/flags.make
 CMakeFiles/file_system.dir/my_mkdir.c.obj: ../my_mkdir.c
 CMakeFiles/file_system.dir/my_mkdir.c.obj: CMakeFiles/file_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\LunixFileSystem-master\file_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/file_system.dir/my_mkdir.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/my_mkdir.c.obj -MF CMakeFiles\file_system.dir\my_mkdir.c.obj.d -o CMakeFiles\file_system.dir\my_mkdir.c.obj -c D:\LunixFileSystem-master\file_system\my_mkdir.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\file-system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/file_system.dir/my_mkdir.c.obj"
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/my_mkdir.c.obj -MF CMakeFiles\file_system.dir\my_mkdir.c.obj.d -o CMakeFiles\file_system.dir\my_mkdir.c.obj -c D:\file-system\my_mkdir.c
 
 CMakeFiles/file_system.dir/my_mkdir.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_system.dir/my_mkdir.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\LunixFileSystem-master\file_system\my_mkdir.c > CMakeFiles\file_system.dir\my_mkdir.c.i
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\file-system\my_mkdir.c > CMakeFiles\file_system.dir\my_mkdir.c.i
 
 CMakeFiles/file_system.dir/my_mkdir.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_system.dir/my_mkdir.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\LunixFileSystem-master\file_system\my_mkdir.c -o CMakeFiles\file_system.dir\my_mkdir.c.s
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\file-system\my_mkdir.c -o CMakeFiles\file_system.dir\my_mkdir.c.s
 
 CMakeFiles/file_system.dir/my_rmdir.c.obj: CMakeFiles/file_system.dir/flags.make
 CMakeFiles/file_system.dir/my_rmdir.c.obj: ../my_rmdir.c
 CMakeFiles/file_system.dir/my_rmdir.c.obj: CMakeFiles/file_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\LunixFileSystem-master\file_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/file_system.dir/my_rmdir.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/my_rmdir.c.obj -MF CMakeFiles\file_system.dir\my_rmdir.c.obj.d -o CMakeFiles\file_system.dir\my_rmdir.c.obj -c D:\LunixFileSystem-master\file_system\my_rmdir.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\file-system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/file_system.dir/my_rmdir.c.obj"
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/my_rmdir.c.obj -MF CMakeFiles\file_system.dir\my_rmdir.c.obj.d -o CMakeFiles\file_system.dir\my_rmdir.c.obj -c D:\file-system\my_rmdir.c
 
 CMakeFiles/file_system.dir/my_rmdir.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_system.dir/my_rmdir.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\LunixFileSystem-master\file_system\my_rmdir.c > CMakeFiles\file_system.dir\my_rmdir.c.i
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\file-system\my_rmdir.c > CMakeFiles\file_system.dir\my_rmdir.c.i
 
 CMakeFiles/file_system.dir/my_rmdir.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_system.dir/my_rmdir.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\LunixFileSystem-master\file_system\my_rmdir.c -o CMakeFiles\file_system.dir\my_rmdir.c.s
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\file-system\my_rmdir.c -o CMakeFiles\file_system.dir\my_rmdir.c.s
 
 CMakeFiles/file_system.dir/my_create.c.obj: CMakeFiles/file_system.dir/flags.make
 CMakeFiles/file_system.dir/my_create.c.obj: ../my_create.c
 CMakeFiles/file_system.dir/my_create.c.obj: CMakeFiles/file_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\LunixFileSystem-master\file_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/file_system.dir/my_create.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/my_create.c.obj -MF CMakeFiles\file_system.dir\my_create.c.obj.d -o CMakeFiles\file_system.dir\my_create.c.obj -c D:\LunixFileSystem-master\file_system\my_create.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\file-system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/file_system.dir/my_create.c.obj"
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/my_create.c.obj -MF CMakeFiles\file_system.dir\my_create.c.obj.d -o CMakeFiles\file_system.dir\my_create.c.obj -c D:\file-system\my_create.c
 
 CMakeFiles/file_system.dir/my_create.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_system.dir/my_create.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\LunixFileSystem-master\file_system\my_create.c > CMakeFiles\file_system.dir\my_create.c.i
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\file-system\my_create.c > CMakeFiles\file_system.dir\my_create.c.i
 
 CMakeFiles/file_system.dir/my_create.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_system.dir/my_create.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\LunixFileSystem-master\file_system\my_create.c -o CMakeFiles\file_system.dir\my_create.c.s
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\file-system\my_create.c -o CMakeFiles\file_system.dir\my_create.c.s
 
 CMakeFiles/file_system.dir/my_rm.c.obj: CMakeFiles/file_system.dir/flags.make
 CMakeFiles/file_system.dir/my_rm.c.obj: ../my_rm.c
 CMakeFiles/file_system.dir/my_rm.c.obj: CMakeFiles/file_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\LunixFileSystem-master\file_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/file_system.dir/my_rm.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/my_rm.c.obj -MF CMakeFiles\file_system.dir\my_rm.c.obj.d -o CMakeFiles\file_system.dir\my_rm.c.obj -c D:\LunixFileSystem-master\file_system\my_rm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\file-system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/file_system.dir/my_rm.c.obj"
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/my_rm.c.obj -MF CMakeFiles\file_system.dir\my_rm.c.obj.d -o CMakeFiles\file_system.dir\my_rm.c.obj -c D:\file-system\my_rm.c
 
 CMakeFiles/file_system.dir/my_rm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_system.dir/my_rm.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\LunixFileSystem-master\file_system\my_rm.c > CMakeFiles\file_system.dir\my_rm.c.i
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\file-system\my_rm.c > CMakeFiles\file_system.dir\my_rm.c.i
 
 CMakeFiles/file_system.dir/my_rm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_system.dir/my_rm.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\LunixFileSystem-master\file_system\my_rm.c -o CMakeFiles\file_system.dir\my_rm.c.s
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\file-system\my_rm.c -o CMakeFiles\file_system.dir\my_rm.c.s
 
 CMakeFiles/file_system.dir/my_open.c.obj: CMakeFiles/file_system.dir/flags.make
 CMakeFiles/file_system.dir/my_open.c.obj: ../my_open.c
 CMakeFiles/file_system.dir/my_open.c.obj: CMakeFiles/file_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\LunixFileSystem-master\file_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/file_system.dir/my_open.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/my_open.c.obj -MF CMakeFiles\file_system.dir\my_open.c.obj.d -o CMakeFiles\file_system.dir\my_open.c.obj -c D:\LunixFileSystem-master\file_system\my_open.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\file-system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/file_system.dir/my_open.c.obj"
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/my_open.c.obj -MF CMakeFiles\file_system.dir\my_open.c.obj.d -o CMakeFiles\file_system.dir\my_open.c.obj -c D:\file-system\my_open.c
 
 CMakeFiles/file_system.dir/my_open.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_system.dir/my_open.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\LunixFileSystem-master\file_system\my_open.c > CMakeFiles\file_system.dir\my_open.c.i
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\file-system\my_open.c > CMakeFiles\file_system.dir\my_open.c.i
 
 CMakeFiles/file_system.dir/my_open.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_system.dir/my_open.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\LunixFileSystem-master\file_system\my_open.c -o CMakeFiles\file_system.dir\my_open.c.s
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\file-system\my_open.c -o CMakeFiles\file_system.dir\my_open.c.s
 
 CMakeFiles/file_system.dir/my_cd.c.obj: CMakeFiles/file_system.dir/flags.make
 CMakeFiles/file_system.dir/my_cd.c.obj: ../my_cd.c
 CMakeFiles/file_system.dir/my_cd.c.obj: CMakeFiles/file_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\LunixFileSystem-master\file_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/file_system.dir/my_cd.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/my_cd.c.obj -MF CMakeFiles\file_system.dir\my_cd.c.obj.d -o CMakeFiles\file_system.dir\my_cd.c.obj -c D:\LunixFileSystem-master\file_system\my_cd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\file-system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/file_system.dir/my_cd.c.obj"
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/my_cd.c.obj -MF CMakeFiles\file_system.dir\my_cd.c.obj.d -o CMakeFiles\file_system.dir\my_cd.c.obj -c D:\file-system\my_cd.c
 
 CMakeFiles/file_system.dir/my_cd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_system.dir/my_cd.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\LunixFileSystem-master\file_system\my_cd.c > CMakeFiles\file_system.dir\my_cd.c.i
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\file-system\my_cd.c > CMakeFiles\file_system.dir\my_cd.c.i
 
 CMakeFiles/file_system.dir/my_cd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_system.dir/my_cd.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\LunixFileSystem-master\file_system\my_cd.c -o CMakeFiles\file_system.dir\my_cd.c.s
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\file-system\my_cd.c -o CMakeFiles\file_system.dir\my_cd.c.s
 
 CMakeFiles/file_system.dir/my_close.c.obj: CMakeFiles/file_system.dir/flags.make
 CMakeFiles/file_system.dir/my_close.c.obj: ../my_close.c
 CMakeFiles/file_system.dir/my_close.c.obj: CMakeFiles/file_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\LunixFileSystem-master\file_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/file_system.dir/my_close.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/my_close.c.obj -MF CMakeFiles\file_system.dir\my_close.c.obj.d -o CMakeFiles\file_system.dir\my_close.c.obj -c D:\LunixFileSystem-master\file_system\my_close.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\file-system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/file_system.dir/my_close.c.obj"
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/my_close.c.obj -MF CMakeFiles\file_system.dir\my_close.c.obj.d -o CMakeFiles\file_system.dir\my_close.c.obj -c D:\file-system\my_close.c
 
 CMakeFiles/file_system.dir/my_close.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_system.dir/my_close.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\LunixFileSystem-master\file_system\my_close.c > CMakeFiles\file_system.dir\my_close.c.i
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\file-system\my_close.c > CMakeFiles\file_system.dir\my_close.c.i
 
 CMakeFiles/file_system.dir/my_close.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_system.dir/my_close.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\LunixFileSystem-master\file_system\my_close.c -o CMakeFiles\file_system.dir\my_close.c.s
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\file-system\my_close.c -o CMakeFiles\file_system.dir\my_close.c.s
 
 CMakeFiles/file_system.dir/my_read.c.obj: CMakeFiles/file_system.dir/flags.make
 CMakeFiles/file_system.dir/my_read.c.obj: ../my_read.c
 CMakeFiles/file_system.dir/my_read.c.obj: CMakeFiles/file_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\LunixFileSystem-master\file_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/file_system.dir/my_read.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/my_read.c.obj -MF CMakeFiles\file_system.dir\my_read.c.obj.d -o CMakeFiles\file_system.dir\my_read.c.obj -c D:\LunixFileSystem-master\file_system\my_read.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\file-system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/file_system.dir/my_read.c.obj"
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/my_read.c.obj -MF CMakeFiles\file_system.dir\my_read.c.obj.d -o CMakeFiles\file_system.dir\my_read.c.obj -c D:\file-system\my_read.c
 
 CMakeFiles/file_system.dir/my_read.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_system.dir/my_read.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\LunixFileSystem-master\file_system\my_read.c > CMakeFiles\file_system.dir\my_read.c.i
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\file-system\my_read.c > CMakeFiles\file_system.dir\my_read.c.i
 
 CMakeFiles/file_system.dir/my_read.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_system.dir/my_read.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\LunixFileSystem-master\file_system\my_read.c -o CMakeFiles\file_system.dir\my_read.c.s
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\file-system\my_read.c -o CMakeFiles\file_system.dir\my_read.c.s
 
 CMakeFiles/file_system.dir/my_write.c.obj: CMakeFiles/file_system.dir/flags.make
 CMakeFiles/file_system.dir/my_write.c.obj: ../my_write.c
 CMakeFiles/file_system.dir/my_write.c.obj: CMakeFiles/file_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\LunixFileSystem-master\file_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/file_system.dir/my_write.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/my_write.c.obj -MF CMakeFiles\file_system.dir\my_write.c.obj.d -o CMakeFiles\file_system.dir\my_write.c.obj -c D:\LunixFileSystem-master\file_system\my_write.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\file-system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/file_system.dir/my_write.c.obj"
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/my_write.c.obj -MF CMakeFiles\file_system.dir\my_write.c.obj.d -o CMakeFiles\file_system.dir\my_write.c.obj -c D:\file-system\my_write.c
 
 CMakeFiles/file_system.dir/my_write.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_system.dir/my_write.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\LunixFileSystem-master\file_system\my_write.c > CMakeFiles\file_system.dir\my_write.c.i
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\file-system\my_write.c > CMakeFiles\file_system.dir\my_write.c.i
 
 CMakeFiles/file_system.dir/my_write.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_system.dir/my_write.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\LunixFileSystem-master\file_system\my_write.c -o CMakeFiles\file_system.dir\my_write.c.s
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\file-system\my_write.c -o CMakeFiles\file_system.dir\my_write.c.s
 
 CMakeFiles/file_system.dir/do_read.c.obj: CMakeFiles/file_system.dir/flags.make
 CMakeFiles/file_system.dir/do_read.c.obj: ../do_read.c
 CMakeFiles/file_system.dir/do_read.c.obj: CMakeFiles/file_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\LunixFileSystem-master\file_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/file_system.dir/do_read.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/do_read.c.obj -MF CMakeFiles\file_system.dir\do_read.c.obj.d -o CMakeFiles\file_system.dir\do_read.c.obj -c D:\LunixFileSystem-master\file_system\do_read.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\file-system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/file_system.dir/do_read.c.obj"
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/do_read.c.obj -MF CMakeFiles\file_system.dir\do_read.c.obj.d -o CMakeFiles\file_system.dir\do_read.c.obj -c D:\file-system\do_read.c
 
 CMakeFiles/file_system.dir/do_read.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_system.dir/do_read.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\LunixFileSystem-master\file_system\do_read.c > CMakeFiles\file_system.dir\do_read.c.i
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\file-system\do_read.c > CMakeFiles\file_system.dir\do_read.c.i
 
 CMakeFiles/file_system.dir/do_read.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_system.dir/do_read.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\LunixFileSystem-master\file_system\do_read.c -o CMakeFiles\file_system.dir\do_read.c.s
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\file-system\do_read.c -o CMakeFiles\file_system.dir\do_read.c.s
 
 CMakeFiles/file_system.dir/do_write.c.obj: CMakeFiles/file_system.dir/flags.make
 CMakeFiles/file_system.dir/do_write.c.obj: ../do_write.c
 CMakeFiles/file_system.dir/do_write.c.obj: CMakeFiles/file_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\LunixFileSystem-master\file_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/file_system.dir/do_write.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/do_write.c.obj -MF CMakeFiles\file_system.dir\do_write.c.obj.d -o CMakeFiles\file_system.dir\do_write.c.obj -c D:\LunixFileSystem-master\file_system\do_write.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\file-system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/file_system.dir/do_write.c.obj"
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/do_write.c.obj -MF CMakeFiles\file_system.dir\do_write.c.obj.d -o CMakeFiles\file_system.dir\do_write.c.obj -c D:\file-system\do_write.c
 
 CMakeFiles/file_system.dir/do_write.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_system.dir/do_write.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\LunixFileSystem-master\file_system\do_write.c > CMakeFiles\file_system.dir\do_write.c.i
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\file-system\do_write.c > CMakeFiles\file_system.dir\do_write.c.i
 
 CMakeFiles/file_system.dir/do_write.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_system.dir/do_write.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\LunixFileSystem-master\file_system\do_write.c -o CMakeFiles\file_system.dir\do_write.c.s
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\file-system\do_write.c -o CMakeFiles\file_system.dir\do_write.c.s
 
 CMakeFiles/file_system.dir/get_free_openfilelist.c.obj: CMakeFiles/file_system.dir/flags.make
 CMakeFiles/file_system.dir/get_free_openfilelist.c.obj: ../get_free_openfilelist.c
 CMakeFiles/file_system.dir/get_free_openfilelist.c.obj: CMakeFiles/file_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\LunixFileSystem-master\file_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/file_system.dir/get_free_openfilelist.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/get_free_openfilelist.c.obj -MF CMakeFiles\file_system.dir\get_free_openfilelist.c.obj.d -o CMakeFiles\file_system.dir\get_free_openfilelist.c.obj -c D:\LunixFileSystem-master\file_system\get_free_openfilelist.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\file-system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/file_system.dir/get_free_openfilelist.c.obj"
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/get_free_openfilelist.c.obj -MF CMakeFiles\file_system.dir\get_free_openfilelist.c.obj.d -o CMakeFiles\file_system.dir\get_free_openfilelist.c.obj -c D:\file-system\get_free_openfilelist.c
 
 CMakeFiles/file_system.dir/get_free_openfilelist.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_system.dir/get_free_openfilelist.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\LunixFileSystem-master\file_system\get_free_openfilelist.c > CMakeFiles\file_system.dir\get_free_openfilelist.c.i
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\file-system\get_free_openfilelist.c > CMakeFiles\file_system.dir\get_free_openfilelist.c.i
 
 CMakeFiles/file_system.dir/get_free_openfilelist.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_system.dir/get_free_openfilelist.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\LunixFileSystem-master\file_system\get_free_openfilelist.c -o CMakeFiles\file_system.dir\get_free_openfilelist.c.s
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\file-system\get_free_openfilelist.c -o CMakeFiles\file_system.dir\get_free_openfilelist.c.s
 
 CMakeFiles/file_system.dir/get_free_block.c.obj: CMakeFiles/file_system.dir/flags.make
 CMakeFiles/file_system.dir/get_free_block.c.obj: ../get_free_block.c
 CMakeFiles/file_system.dir/get_free_block.c.obj: CMakeFiles/file_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\LunixFileSystem-master\file_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/file_system.dir/get_free_block.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/get_free_block.c.obj -MF CMakeFiles\file_system.dir\get_free_block.c.obj.d -o CMakeFiles\file_system.dir\get_free_block.c.obj -c D:\LunixFileSystem-master\file_system\get_free_block.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\file-system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/file_system.dir/get_free_block.c.obj"
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/get_free_block.c.obj -MF CMakeFiles\file_system.dir\get_free_block.c.obj.d -o CMakeFiles\file_system.dir\get_free_block.c.obj -c D:\file-system\get_free_block.c
 
 CMakeFiles/file_system.dir/get_free_block.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_system.dir/get_free_block.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\LunixFileSystem-master\file_system\get_free_block.c > CMakeFiles\file_system.dir\get_free_block.c.i
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\file-system\get_free_block.c > CMakeFiles\file_system.dir\get_free_block.c.i
 
 CMakeFiles/file_system.dir/get_free_block.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_system.dir/get_free_block.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\LunixFileSystem-master\file_system\get_free_block.c -o CMakeFiles\file_system.dir\get_free_block.c.s
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\file-system\get_free_block.c -o CMakeFiles\file_system.dir\get_free_block.c.s
 
 CMakeFiles/file_system.dir/help.c.obj: CMakeFiles/file_system.dir/flags.make
 CMakeFiles/file_system.dir/help.c.obj: ../help.c
 CMakeFiles/file_system.dir/help.c.obj: CMakeFiles/file_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\LunixFileSystem-master\file_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/file_system.dir/help.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/help.c.obj -MF CMakeFiles\file_system.dir\help.c.obj.d -o CMakeFiles\file_system.dir\help.c.obj -c D:\LunixFileSystem-master\file_system\help.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\file-system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/file_system.dir/help.c.obj"
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/file_system.dir/help.c.obj -MF CMakeFiles\file_system.dir\help.c.obj.d -o CMakeFiles\file_system.dir\help.c.obj -c D:\file-system\help.c
 
 CMakeFiles/file_system.dir/help.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_system.dir/help.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\LunixFileSystem-master\file_system\help.c > CMakeFiles\file_system.dir\help.c.i
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\file-system\help.c > CMakeFiles\file_system.dir\help.c.i
 
 CMakeFiles/file_system.dir/help.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_system.dir/help.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\LunixFileSystem-master\file_system\help.c -o CMakeFiles\file_system.dir\help.c.s
+	"D:\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\file-system\help.c -o CMakeFiles\file_system.dir\help.c.s
 
 # Object files for target file_system
 file_system_OBJECTS = \
@@ -398,7 +398,7 @@ file_system.exe: CMakeFiles/file_system.dir/build.make
 file_system.exe: CMakeFiles/file_system.dir/linklibs.rsp
 file_system.exe: CMakeFiles/file_system.dir/objects1.rsp
 file_system.exe: CMakeFiles/file_system.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\LunixFileSystem-master\file_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking C executable file_system.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\file-system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking C executable file_system.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\file_system.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -410,6 +410,6 @@ CMakeFiles/file_system.dir/clean:
 .PHONY : CMakeFiles/file_system.dir/clean
 
 CMakeFiles/file_system.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\LunixFileSystem-master\file_system D:\LunixFileSystem-master\file_system D:\LunixFileSystem-master\file_system\cmake-build-debug D:\LunixFileSystem-master\file_system\cmake-build-debug D:\LunixFileSystem-master\file_system\cmake-build-debug\CMakeFiles\file_system.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\file-system D:\file-system D:\file-system\cmake-build-debug D:\file-system\cmake-build-debug D:\file-system\cmake-build-debug\CMakeFiles\file_system.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/file_system.dir/depend
 
