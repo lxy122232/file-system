@@ -1,6 +1,6 @@
 #include "head.h"
 
-int get_free_openfilelist()
+int get_free_openfilelist()//test
 {
     int i;
     for (i = 0; i < MAXOPENFILE; i++) {
